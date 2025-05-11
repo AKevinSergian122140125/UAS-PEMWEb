@@ -49,5 +49,17 @@ PayEra adalah aplikasi web yang membantu pengguna mencatat dan mengelola pemasuk
 ---
 
 ## 🗃️ Struktur Proyek
+/backend
+├── payera/
+├── models/
+├── routes/
+├── tests/
+└── main.py
 
+/frontend
+├── src/
+├── components/
+├── pages/
+├── services/
+└── App.jsx
 
