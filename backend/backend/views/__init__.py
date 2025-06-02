@@ -8,3 +8,4 @@ def includeme(config):
     config.scan('.auth')
     config.scan('.transaction')  # ✅ Harus discan
     config.scan('.user')
+    config.add_static_view(name='static', path='backend:static')
