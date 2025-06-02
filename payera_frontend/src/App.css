@@ -1,0 +1,129 @@
+body {
+  background-color: #0f1f17 !important; /* hijau tua sangat gelap */
+  color: #d9d9d9 !important;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Headings dan label */
+h1, h2, h3, h4, h5, h6, label {
+  color: #d4d4aa !important; /* krem lemon lembut */
+}
+
+/* Ringkasan card */
+.card {
+  background-color: #1a2b23 !important;
+  border: 1px solid #2f4a3b !important;
+  border-radius: 10px;
+  color: #dcdcdc !important;
+  padding: 20px;
+}
+
+/* Input dan select */
+input, select, .form-control {
+  background-color: #1e3027 !important;
+  color: #e0e0e0 !important;
+  font-weight: 500 !important;
+  border: 1px solid #3c4f43 !important;
+  border-radius: 6px !important;
+}
+
+input::placeholder {
+  color: #888 !important;
+}
+
+/* Tombol utama (biru kalem sebagai aksen) */
+.btn-primary {
+  background-color: #3366cc !important;
+  border: none !important;
+  color: #fff !important;
+  font-weight: 500 !important;
+  border-radius: 6px !important;
+}
+
+.btn-primary:hover {
+  background-color: #254ba2 !important;
+}
+
+/* Tombol outline edit/hapus */
+.btn-outline-dark {
+  border: 1px solid #aabbaa !important;
+  color: #aabbaa !important;
+  border-radius: 6px !important;
+  background-color: transparent !important;
+}
+
+.btn-outline-dark:hover {
+  background-color: #aabbaa !important;
+  color: #000 !important;
+}
+
+/* Item transaksi */
+.list-group-item {
+  background-color: #1a2b23 !important;
+  border: none !important;
+  color: #dcdcdc !important;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+/* Item pemasukan */
+.list-group-item-success {
+  background-color: #284d3b !important; /* hijau tenang */
+  color: #cfead4 !important;
+}
+
+/* Item pengeluaran */
+.list-group-item-danger {
+  background-color: #4a2d2d !important; /* merah tua redup */
+  color: #ffcccc !important;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #0a1c13 !important;
+  border-bottom: 1px solid #2a3e2e !important;
+}
+
+.navbar-brand, .nav-link {
+  color: #d4d4aa !important;
+}
+
+/* Logout */
+.btn-logout {
+  border: 1px solid #aabbaa !important;
+  color: #aabbaa !important;
+  background-color: transparent !important;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.btn-logout:hover {
+  background-color: #aabbaa !important;
+  color: #000 !important;
+}
+
+/* Root */
+#root, .App {
+  background-color: #0f1f17 !important;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: transparent !important;
+}
+
+/* Scroll styling */
+.transaction-scroll {
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.transaction-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.transaction-scroll::-webkit-scrollbar-thumb {
+  background-color: #aabbaa;
+  border-radius: 3px;
+}
